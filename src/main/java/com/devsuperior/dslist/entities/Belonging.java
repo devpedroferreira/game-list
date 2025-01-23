@@ -1,7 +1,10 @@
 package com.devsuperior.dslist.entities;
 
+import jakarta.persistence.EmbeddedId;
+
 public class Belonging {
 	
+	@EmbeddedId
 	private BelongingPK id;
 	
 	private Integer position;
